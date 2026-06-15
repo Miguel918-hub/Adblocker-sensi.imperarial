@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadIdentifier</key>
+<string>com.sensi.imperarial.adblocker</string>
+<key>PayloadUUID</key>
+<string>c4f1b4fa-6747-4f83-88cb-347a4dd5c3d4</string>
+<key>PayloadDisplayName</key>
+<string>Adblocker</string>
+<key>PayloadDescription</key>
+<string>Adblocker — Proteção avançada contra anúncios, rastreadores e conteúdos indesejados. Desenvolvido e personalizado por @sensi.imperarial. Créditos e comunidade oficial: discord.gg/UspqESuher</string>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadVersion</key><integer>1</integer>
+<key>PayloadIdentifier</key>
+<string>com.sensi.imperarial.adblocker.dns</string>
+<key>PayloadUUID</key>
+<string>de70060e-fac5-4fc5-b90c-d1407f95be1f</string>
+<key>PayloadDisplayName</key>
+<string>Adblocker DNS</string>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>https://dns.adguard-dns.com/dns-query</string>
+</dict>
+</dict>
+</array>
+</dict>
+</plist>
